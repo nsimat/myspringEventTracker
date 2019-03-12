@@ -26,7 +26,8 @@ public class WebAppInitializer implements WebApplicationInitializer {
 			DispatcherServlet servlet = new DispatcherServlet(context);
 			ServletRegistration.Dynamic registration = servletContext.addServlet("AppDispatcherServlet", servlet);
 			registration.setLoadOnStartup(1);
-			registration.addMapping("/");
+			registration.addMapping("*.html");
+			registration.addMapping("*.pdf");
 
 		}
 

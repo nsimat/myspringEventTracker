@@ -31,12 +31,4 @@ public class WebAppInitializer implements WebApplicationInitializer {
 			registration.addMapping("*.json");
 
 		}
-
-		/*private AnnotationConfigWebApplicationContext getContext() {
-			
-			// Load Spring web application configuration
-			AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();			
-			context.setConfigLocation("edu.nsimat.configuration");
-			return context;
-		}*/
 }

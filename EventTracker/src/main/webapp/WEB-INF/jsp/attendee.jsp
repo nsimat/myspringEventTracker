@@ -23,7 +23,7 @@
 </style>
 </head>
 <body>
-
+<div align="center">
 	<a href="?language=en">English</a>&nbsp
 	<a href="?language=fr">French</a>
 	<br />
@@ -50,11 +50,11 @@
 						path="phoneNumber" cssClass="error" /></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="submit" class="btn"
+				<td colspan="2" align="center"><input type="submit" class="btn"
 					value="<spring:message code="attendee.btn"/>" /></td>
 			</tr>
 		</table>
 	</form:form>
-
+</div>
 </body>
 </html>
